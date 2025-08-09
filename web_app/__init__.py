@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
-from app.meal_planner import generate_week_plan  # <-- uses week by default
+from app.meal_planner import generate_week_plan_varied
+from app.meal_planner import generate_week_plan
 
 app = Flask(__name__)
 
@@ -13,8 +14,11 @@ def results():
     diet     = (request.form.get("diet") or "").strip() or None
     exclude  = (request.form.get("exclude") or "").strip() or None
 
-    # DO NOT pass timeframe here; meal_planner already uses "week"
+
+    plan = generate_week_plan_varied(calories, diet, exclude)
+
     plan = generate_week_plan(calories, diet, exclude)
+
     if plan is None:
         return "Upstream API failed. Please try again later.", 502
 
