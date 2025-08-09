@@ -8,10 +8,14 @@ The API key is stored in a `.env` file for security.
 
 1. Configure secrets with .env
 
+
+1. Configure secrets with .env
+
 SPOONACULAR_API_KEY=your_api_key_here
 SENDGRID_API_KEY=your_real_sendgrid_key_here
 
 2. Create & activate an environment
+
 ```sh
 conda create -n my-first-repo-env python=3.11
 
@@ -30,6 +34,21 @@ export FLASK_APP=web_app
 flask run
 ```
     Open the browser at http://127.0.0.1:5000
+
+conda create -n meal-env python=3.11 -y
+conda activate meal-env
+
+3. Install packages
+pip install -r requirements.txt
+
+4. Run the Flask web app
+export FLASK_APP=web_app
+flask run
+
+Open the browser at http://127.0.0.1:5000
+
+5. In the Web App
+Enter calories/diet/exclusions/email address and you’ll get a Weekly Meal Plan
 
 5. In the Web App
 Enter calories/diet/exclusions/email address and you’ll get a Weekly Meal Plan
