@@ -1,0 +1,37 @@
+{
+  "meals": [
+    {
+      "id": 1100990,
+      "image": "blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990.jpg",
+      "imageType": "jpg",
+      "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "sourceUrl": "https://www.foodista.com/recipe/35NX6PZB/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan"
+    },
+    {
+      "id": 652417,
+      "image": "Moroccan-chickpea-and-lentil-stew-652417.jpg",
+      "imageType": "jpg",
+      "title": "Moroccan chickpea and lentil stew",
+      "readyInMinutes": 30,
+      "servings": 3,
+      "sourceUrl": "https://www.foodista.com/recipe/C6DXLHJH/moroccan-chickpea-and-lentil-stew"
+    },
+    {
+      "id": 660101,
+      "image": "Simple-Garlic-Pasta-660101.jpg",
+      "imageType": "jpg",
+      "title": "Simple Garlic Pasta",
+      "readyInMinutes": 45,
+      "servings": 1,
+      "sourceUrl": "https://www.foodista.com/recipe/BG3S6M3T/simple-garlic-pasta"
+    }
+  ],
+  "nutrients": {
+    "calories": 1998.89,
+    "protein": 46.76,
+    "fat": 93.72,
+    "carbohydrates": 251.07
+  }
+}
