@@ -1,5 +1,4 @@
 requests
 python-dotenv
-json
 #sendgrid
 flask

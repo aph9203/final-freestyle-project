@@ -14,7 +14,10 @@ def results():
     diet     = (request.form.get("diet") or "").strip() or None
     exclude  = (request.form.get("exclude") or "").strip() or None
 
+    wants_email = (request.form.get("wantsEmail") == "yes")
+    user_email  = (request.form.get("email") or "").strip()
 
+    # DO NOT pass timeframe here; meal_planner already uses "week"
     plan = generate_week_plan_varied(calories, diet, exclude)
 
     plan = generate_week_plan(calories, diet, exclude)
@@ -22,6 +25,26 @@ def results():
     if plan is None:
         return "Upstream API failed. Please try again later.", 502
 
+    # Always save plan.json so the email script can read it
+    try:
+        with open("plan.json", "w", encoding="utf-8") as f:
+            json.dump(plan, f, indent=2)
+    except Exception:
+        pass  # non-fatal for web view
+
+    # Try to email only if the user opted in and provided an email
+    email_sent = False
+    email_error = None
+    if wants_email and user_email:
+        try:
+            # Import here so the app still runs even if sendgrid isn't installed
+            from email_week_plan import send_plan_csv
+            send_plan_csv(user_email)
+            email_sent = True
+        except Exception as e:
+            email_error = str(e)[:200]
+
+            
     week = plan.get("week")
     if not week:
         # Show what came back so you can diagnose quickly

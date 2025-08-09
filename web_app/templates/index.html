@@ -32,7 +32,17 @@
       <input type="text" name="exclude" placeholder="peanuts,shellfish">
     </label>
     <br><br>
+    
+    <label>
+      <input type="checkbox" name="wantsEmail" value="yes">
+      Email me the weekly plan (CSV attachment)
+    </label>
+    <br><br>
 
+    <input type="email" name="email" placeholder="you@example.com">
+    <br><br>
+
+    
     <!-- No timeframe field; backend always requests week -->
     <button type="submit">Generate Week Plan</button>
   </form>
