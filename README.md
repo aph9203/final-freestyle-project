@@ -5,18 +5,23 @@ It fetches weekly meal plan from the Spoonacular API using calories, diet and ex
 The API key is stored in a `.env` file for security.
 
 ## Setup
+
 1. Configure secrets with .env
+
 SPOONACULAR_API_KEY=your_api_key_here
 SENDGRID_API_KEY=your_real_sendgrid_key_here
 
 2. Create & activate an environment
+
 conda create -n meal-env python=3.11 -y
 conda activate meal-env
 
 3. Install packages
+
 pip install -r requirements.txt
 
 4. Run the Flask web app
+
 export FLASK_APP=web_app
 flask run
 
