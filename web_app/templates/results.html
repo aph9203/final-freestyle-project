@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Weekly Meal Plan</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root {
+      --bg:#0b1321; --card:#121a2b; --fg:#eaf0ff; --muted:#9fb2d9; --accent:#6aa6ff;
+      --ok:#77dd77;
+    }
+    html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+    .wrap{max-width:960px;margin:40px auto;padding:0 16px}
+    h1{font-size:28px;margin:0 0 8px}
+    .sub{color:var(--muted);margin:0 0 24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+    .day{background:var(--card);border-radius:14px;padding:16px}
+    .day h2{font-size:18px;margin:0 0 8px}
+    .nutr{font-size:14px;color:var(--muted);margin:8px 0 12px}
+    ul.meals{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
+    .meal{background:#0f182a;padding:12px;border-radius:12px}
+    .meal strong{color:var(--accent)}
+    .meal a{color:var(--ok);text-decoration:none}
+    .thumb{margin-top:.4rem;border-radius:10px;display:block;width:100%;height:auto;max-width:312px}
+    .footer{color:var(--muted);font-size:12px;margin:28px 0 8px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Weekly Meal Plan</h1>
+    <p class="sub">
+      Target Calories: {{ target_calories or "—" }}
+      {% if diet %} • Diet: {{ diet }}{% endif %}
+      {% if exclude %} • Excluding: {{ exclude }}{% endif %}
+    </p>
+
+    {% if not week %}
+      <p>Sorry, no weekly data was returned by the API.</p>
+    {% else %}
+
+    <div class="grid">
+      {% set day_order = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"] %}
+      {% set labels = ["Breakfast","Lunch","Dinner"] %}
+
+      {% for day in day_order %}
+        {% set block = week.get(day) %}
+        {% if block %}
+        <section class="day">
+          <h2>{{ day.capitalize() }}</h2>
+
+          {% if block.nutrients %}
+            <div class="nutr">
+              {{ block.nutrients.calories|round }} kcal •
+              P {{ block.nutrients.protein|round(1) }} g •
+              F {{ block.nutrients.fat|round(1) }} g •
+              C {{ block.nutrients.carbohydrates|round(1) }} g
+            </div>
+          {% endif %}
+
+          <ul class="meals">
+            {% for m in block.meals[:3] %}
+              {% set label = (labels[loop.index0] if loop.index0 < labels|length else "Meal " ~ loop.index) %}
+              <li class="meal">
+                <strong>{{ label }}:</strong> {{ m.title }} • {{ m.readyInMinutes }} min
+
+                {# build a stable image url if id & imageType present #}
+                {% if m.id and m.imageType %}
+                  {% set img_url = "https://spoonacular.com/recipeImages/" ~ m.id ~ "-312x231." ~ m.imageType %}
+                  <img class="thumb" src="{{ img_url }}" alt="{{ m.title }}">
+                {% endif %}
+
+                {% if m.sourceUrl %}
+                  <div><a href="{{ m.sourceUrl }}" target="_blank" rel="noopener">View recipe</a></div>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% endif %}
+
+    <p class="footer"><a href="/" style="color:var(--accent);text-decoration:none">← Plan again</a></p>
+  </div>
+</body>
+</html>
