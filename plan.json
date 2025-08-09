@@ -1,0 +1,263 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 632925,
+          "image": "Asparagus-and-Asiago-Frittata-632925.jpg",
+          "imageType": "jpg",
+          "title": "Asparagus and Asiago Frittata",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/KYWTWPZT/asparagus-and-asiago-frittata"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 801377,
+          "image": "chicken-parmesan-patty-eat-as-a-burger-or-on-pasta-801377.jpg",
+          "imageType": "jpg",
+          "title": "Chicken Parmesan Patty- Eat As A Burger OR On Pasta",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "http://www.pinkwhen.com/chicken-parmesan-patty/"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.98,
+        "protein": 124.68,
+        "fat": 154.89,
+        "carbohydrates": 29.45
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 632925,
+          "image": "Asparagus-and-Asiago-Frittata-632925.jpg",
+          "imageType": "jpg",
+          "title": "Asparagus and Asiago Frittata",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/KYWTWPZT/asparagus-and-asiago-frittata"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 801377,
+          "image": "chicken-parmesan-patty-eat-as-a-burger-or-on-pasta-801377.jpg",
+          "imageType": "jpg",
+          "title": "Chicken Parmesan Patty- Eat As A Burger OR On Pasta",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "http://www.pinkwhen.com/chicken-parmesan-patty/"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.98,
+        "protein": 124.68,
+        "fat": 154.89,
+        "carbohydrates": 29.45
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 632925,
+          "image": "Asparagus-and-Asiago-Frittata-632925.jpg",
+          "imageType": "jpg",
+          "title": "Asparagus and Asiago Frittata",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/KYWTWPZT/asparagus-and-asiago-frittata"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 801377,
+          "image": "chicken-parmesan-patty-eat-as-a-burger-or-on-pasta-801377.jpg",
+          "imageType": "jpg",
+          "title": "Chicken Parmesan Patty- Eat As A Burger OR On Pasta",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "http://www.pinkwhen.com/chicken-parmesan-patty/"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.98,
+        "protein": 124.68,
+        "fat": 154.89,
+        "carbohydrates": 29.45
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 632925,
+          "image": "Asparagus-and-Asiago-Frittata-632925.jpg",
+          "imageType": "jpg",
+          "title": "Asparagus and Asiago Frittata",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/KYWTWPZT/asparagus-and-asiago-frittata"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 801377,
+          "image": "chicken-parmesan-patty-eat-as-a-burger-or-on-pasta-801377.jpg",
+          "imageType": "jpg",
+          "title": "Chicken Parmesan Patty- Eat As A Burger OR On Pasta",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "http://www.pinkwhen.com/chicken-parmesan-patty/"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.98,
+        "protein": 124.68,
+        "fat": 154.89,
+        "carbohydrates": 29.45
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 716432,
+          "image": "finger-foods-frittata-muffins-incredibleegg-716432.jpg",
+          "imageType": "jpg",
+          "title": "Finger Foods: Frittata Muffins",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://fullbellysisters.blogspot.com/2014/05/finger-foods-frittata-muffins.html"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 641944,
+          "image": "Easy-Crispy-Oven-Chicken-641944.jpg",
+          "imageType": "jpg",
+          "title": "Easy Crispy Oven Chicken",
+          "readyInMinutes": 45,
+          "servings": 7,
+          "sourceUrl": "http://www.foodista.com/recipe/KTTJWPWD/easy-crispy-oven-chicken"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.15,
+        "protein": 129.17,
+        "fat": 148.37,
+        "carbohydrates": 36.01
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 641700,
+          "image": "Duck-Egg-Omelette-With-Caviar-and-Sour-Cream-641700.jpg",
+          "imageType": "jpg",
+          "title": "Duck Egg Omelette With Caviar and Sour Cream",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/V4WWB2B2/duck-egg-omelette-with-arenkha-msc-and-sour-cream"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 716427,
+          "image": "roasted-butterflied-chicken-w-onions-carrots-716427.jpg",
+          "imageType": "jpg",
+          "title": "Roasted Butterflied Chicken w. Onions & Carrots",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://fullbellysisters.blogspot.com/2014/04/roasted-butterflied-chicken-w-onions.html"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.19,
+        "protein": 113.79,
+        "fat": 157.57,
+        "carbohydrates": 32.11
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 641700,
+          "image": "Duck-Egg-Omelette-With-Caviar-and-Sour-Cream-641700.jpg",
+          "imageType": "jpg",
+          "title": "Duck Egg Omelette With Caviar and Sour Cream",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/V4WWB2B2/duck-egg-omelette-with-arenkha-msc-and-sour-cream"
+        },
+        {
+          "id": 650377,
+          "image": "Low-Carb-Brunch-Burger-650377.jpg",
+          "imageType": "jpg",
+          "title": "Low Carb Brunch Burger",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/5SPTY657/low-carb-brunch-burger"
+        },
+        {
+          "id": 716427,
+          "image": "roasted-butterflied-chicken-w-onions-carrots-716427.jpg",
+          "imageType": "jpg",
+          "title": "Roasted Butterflied Chicken w. Onions & Carrots",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://fullbellysisters.blogspot.com/2014/04/roasted-butterflied-chicken-w-onions.html"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.19,
+        "protein": 113.79,
+        "fat": 157.57,
+        "carbohydrates": 32.11
+      }
+    }
+  }
+}
