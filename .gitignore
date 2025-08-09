@@ -1,2 +1,4 @@
 __pycache__
 .env
+email_week_plan.py
+.DS_Store

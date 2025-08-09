@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Weekly Meal Planner</title>
+</head>
+<body>
+  <h1>Weekly Meal Planner</h1>
+
+  <form method="post" action="/results">
+    <label>
+      Target Calories:
+      <input type="number" name="targetCalories" placeholder="2000" required>
+    </label>
+    <br><br>
+
+    <label>
+      Diet (optional):
+      <select name="diet">
+        <option value="">(none)</option>
+        <option>vegetarian</option>
+        <option>vegan</option>
+        <option>keto</option>
+        <option>paleo</option>
+        <option>pescetarian</option>
+      </select>
+    </label>
+    <br><br>
+
+    <label>
+      Exclude ingredients (comma-separated):
+      <input type="text" name="exclude" placeholder="peanuts,shellfish">
+    </label>
+    <br><br>
+
+    <!-- No timeframe field; backend always requests week -->
+    <button type="submit">Generate Week Plan</button>
+  </form>
+</body>
+</html>
