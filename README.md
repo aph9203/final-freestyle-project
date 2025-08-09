@@ -1,7 +1,7 @@
 # Spoonacular Meal Planner
 
 This is the first step of the project.
-It fetches one daily meal plan from the Spoonacular API using only calories as input.
+It fetches weekly meal plan from the Spoonacular API using calories, diet and excluded ingredients if any as input.
 The API key is stored in a `.env` file for security.
 
 ## Setup
@@ -13,3 +13,5 @@ pip install -r requirements.txt
 
 3. Run:
 python -m app.meal_planner
+
+4. 
