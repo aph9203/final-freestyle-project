@@ -29,3 +29,5 @@ Open the browser at http://127.0.0.1:5000
 
 5. In the Web App
 Enter calories/diet/exclusions/email address and you’ll get a Weekly Meal Plan
+
+4. 
