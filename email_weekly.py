@@ -54,42 +54,50 @@ def plan_to_csv_text(plan_dict):
 
     return buf.getvalue()
 
-# ---- Load plan.json ----
-with open("plan.json", "r", encoding="utf-8") as f:
-    plan = json.load(f)
-
-csv_text = plan_to_csv_text(plan)
-
 # NEW: ask user for recipient email
-to_email = input("Enter recipient email: ").strip()
+#to_email = input("Enter recipient email: ").strip()
 
-# PREPARE MESSAGE
-subject = "Your Weekly Meal Plan"
-html_content = """
-    <h2>Your Meal Plan</h2>
-    <p>Attached is your meal plan as a CSV file.</p>
-"""
+def send_plan_csv(to_email):
+    """Send plan.json as CSV attachment to the given email. Returns HTTP status code from SendGrid."""
+    if not to_email:
+        raise ValueError("Recipient email is required")
+    
 
-client = SendGridAPIClient(SENDGRID_API_KEY)
-message = Mail(
-    from_email="apriyankah@gmail.com",
-    to_emails=to_email,
-    subject=subject,
-    html_content=html_content
-)
+    # ---- Load plan.json ----
+    with open("plan.json", "r", encoding="utf-8") as f:
+        plan = json.load(f)
 
-# ATTACH CSV
-encoded_csv = base64.b64encode(csv_text.encode("utf-8")).decode()
+    csv_text = plan_to_csv_text(plan)
 
-csvAttachment = Attachment(
-    FileContent(encoded_csv),
-    FileName("meal_plan.csv"),
-    FileType("text/csv"),
-    Disposition("attachment")
-)
 
-message.attachment = csvAttachment
 
-# SEND MESSAGE
-response = client.send(message)
-print(response.status_code)
+    # PREPARE MESSAGE
+    subject = "Your Weekly Meal Plan"
+    html_content = """
+        <h2>Your Meal Plan</h2>
+        <p>Attached is your meal plan as a CSV file.</p>
+    """
+
+    client = SendGridAPIClient(SENDGRID_API_KEY)
+    message = Mail(
+        from_email="apriyankah@gmail.com",
+        to_emails=to_email,
+        subject=subject,
+        html_content=html_content
+    )
+
+    # ATTACH CSV
+    encoded_csv = base64.b64encode(csv_text.encode("utf-8")).decode()
+
+    csvAttachment = Attachment(
+        FileContent(encoded_csv),
+        FileName("meal_plan.csv"),
+        FileType("text/csv"),
+        Disposition("attachment")
+    )
+
+    message.attachment = csvAttachment
+
+    # SEND MESSAGE
+    response = client.send(message)
+    return response.status_code

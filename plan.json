@@ -1,0 +1,263 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 635394,
+          "image": "Blueberry---Orange-Maple-Scones-635394.jpg",
+          "imageType": "jpg",
+          "title": "Blueberry & Orange Maple Scones",
+          "readyInMinutes": 45,
+          "servings": 16,
+          "sourceUrl": "https://www.foodista.com/recipe/4FW7FLXJ/blueberry-orange-maple-scones"
+        },
+        {
+          "id": 1697541,
+          "image": "pasta-with-feta-cheese-and-asparagus-1697541.jpg",
+          "imageType": "jpg",
+          "title": "Pasta With Feta Cheese And Asparagus",
+          "readyInMinutes": 20,
+          "servings": 2,
+          "sourceUrl": "https://maplewoodroad.com/pasta-with-feta-cheese-and-asparagus/"
+        },
+        {
+          "id": 663225,
+          "image": "The-Best-Of-England-Salad-663225.jpg",
+          "imageType": "jpg",
+          "title": "The Best Of England Salad",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/6T7RKVV2/the-best-of-england-salad"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.97,
+        "protein": 65.37,
+        "fat": 104.48,
+        "carbohydrates": 206.24
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 648632,
+          "image": "Jules-Banana-Bread-648632.jpg",
+          "imageType": "jpg",
+          "title": "Jules' Banana Bread",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/BYT4L4XH/jules-banana-bread"
+        },
+        {
+          "id": 643674,
+          "image": "Fried-Brown-Rice-643674.jpg",
+          "imageType": "jpg",
+          "title": "Fried Brown Rice",
+          "readyInMinutes": 25,
+          "servings": 2,
+          "sourceUrl": "https://www.foodista.com/recipe/SFXY6WMQ/fried-brown-rice"
+        },
+        {
+          "id": 657651,
+          "image": "Quick-Veggie-Stir-Fry-657651.jpg",
+          "imageType": "jpg",
+          "title": "Quick Veggie Stir-Fry",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/JQYJXV3Y/quick-veggie-stir-fry"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.3,
+        "protein": 62.13,
+        "fat": 95.1,
+        "carbohydrates": 244.12
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 655786,
+          "image": "Persimmons-Pumpkin-Orange-Smoothie-655786.jpg",
+          "imageType": "jpg",
+          "title": "Persimmons Pumpkin Orange Smoothie With Chia Seeds",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "https://www.foodista.com/recipe/CZF2KGGJ/persimmons-pumpkin-orange-smoothie"
+        },
+        {
+          "id": 652417,
+          "image": "Moroccan-chickpea-and-lentil-stew-652417.jpg",
+          "imageType": "jpg",
+          "title": "Moroccan chickpea and lentil stew",
+          "readyInMinutes": 30,
+          "servings": 3,
+          "sourceUrl": "https://www.foodista.com/recipe/C6DXLHJH/moroccan-chickpea-and-lentil-stew"
+        },
+        {
+          "id": 635964,
+          "image": "Bread-Omlette-635964.jpg",
+          "imageType": "jpg",
+          "title": "Bread Omlette",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/2M6MVKZT/bread-omlette"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.0,
+        "protein": 72.83,
+        "fat": 90.25,
+        "carbohydrates": 237.1
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 635964,
+          "image": "Bread-Omlette-635964.jpg",
+          "imageType": "jpg",
+          "title": "Bread Omlette",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/2M6MVKZT/bread-omlette"
+        },
+        {
+          "id": 982371,
+          "image": "instant-pot-quinoa-grain-bowl-982371.jpg",
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://www.pinkwhen.com/instant-pot-quinoa-grain-bowl/"
+        },
+        {
+          "id": 994607,
+          "image": "kaiserschmarrn-994607.jpg",
+          "imageType": "jpg",
+          "title": "Kaiserschmarrn",
+          "readyInMinutes": 50,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/site-1522954610439"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.76,
+        "protein": 88.2,
+        "fat": 70.8,
+        "carbohydrates": 251.02
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 658624,
+          "image": "Roasted-Plum-Oatmeal-658624.jpg",
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/2ZWYP8RM/roasted-plum-oatmeal"
+        },
+        {
+          "id": 642777,
+          "image": "Fig-and-Goat-Cheese-Pizza-With-Pesto-642777.jpg",
+          "imageType": "jpg",
+          "title": "Fig and Goat Cheese Pizza With Pesto",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://www.foodista.com/recipe/KFX4GS4M/fig-and-goat-cheese-pizza-with-pesto"
+        },
+        {
+          "id": 663225,
+          "image": "The-Best-Of-England-Salad-663225.jpg",
+          "imageType": "jpg",
+          "title": "The Best Of England Salad",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/6T7RKVV2/the-best-of-england-salad"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.01,
+        "protein": 64.29,
+        "fat": 125.76,
+        "carbohydrates": 164.76
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 658624,
+          "image": "Roasted-Plum-Oatmeal-658624.jpg",
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/2ZWYP8RM/roasted-plum-oatmeal"
+        },
+        {
+          "id": 642777,
+          "image": "Fig-and-Goat-Cheese-Pizza-With-Pesto-642777.jpg",
+          "imageType": "jpg",
+          "title": "Fig and Goat Cheese Pizza With Pesto",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://www.foodista.com/recipe/KFX4GS4M/fig-and-goat-cheese-pizza-with-pesto"
+        },
+        {
+          "id": 663225,
+          "image": "The-Best-Of-England-Salad-663225.jpg",
+          "imageType": "jpg",
+          "title": "The Best Of England Salad",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/6T7RKVV2/the-best-of-england-salad"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.01,
+        "protein": 64.29,
+        "fat": 125.76,
+        "carbohydrates": 164.76
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 715569,
+          "image": "strawberry-cheesecake-chocolate-crepes-715569.jpg",
+          "imageType": "jpg",
+          "title": "Strawberry Cheesecake Chocolate Crepes",
+          "readyInMinutes": 40,
+          "servings": 4,
+          "sourceUrl": "https://www.pinkwhen.com/strawberry-cheesecake-chocolate-crepes/"
+        },
+        {
+          "id": 642585,
+          "image": "Farfalle-with-fresh-tomatoes--basil-and-mozzarella-642585.jpg",
+          "imageType": "jpg",
+          "title": "Farfalle with fresh tomatoes, basil and mozzarella",
+          "readyInMinutes": 15,
+          "servings": 4,
+          "sourceUrl": "https://www.foodista.com/recipe/B6CC3QXM/farfalle-with-fresh-tomatoes-basil-and-mozzarella"
+        },
+        {
+          "id": 635964,
+          "image": "Bread-Omlette-635964.jpg",
+          "imageType": "jpg",
+          "title": "Bread Omlette",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://www.foodista.com/recipe/2M6MVKZT/bread-omlette"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.04,
+        "protein": 77.18,
+        "fat": 82.99,
+        "carbohydrates": 235.47
+      }
+    }
+  }
+}

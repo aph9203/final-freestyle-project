@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import json
 from app.meal_planner import generate_week_plan_varied
 from app.meal_planner import generate_week_plan
 
@@ -20,7 +21,7 @@ def results():
     # DO NOT pass timeframe here; meal_planner already uses "week"
     plan = generate_week_plan_varied(calories, diet, exclude)
 
-    plan = generate_week_plan(calories, diet, exclude)
+    #plan = generate_week_plan(calories, diet, exclude)
 
     if plan is None:
         return "Upstream API failed. Please try again later.", 502
@@ -38,7 +39,7 @@ def results():
     if wants_email and user_email:
         try:
             # Import here so the app still runs even if sendgrid isn't installed
-            from email_week_plan import send_plan_csv
+            from email_weekly import send_plan_csv
             send_plan_csv(user_email)
             email_sent = True
         except Exception as e:
