@@ -3,3 +3,4 @@ python-dotenv
 sendgrid
 #sendgrid
 flask
+pytest
