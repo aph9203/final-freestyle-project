@@ -5,7 +5,7 @@ import io
 import base64
 from dotenv import load_dotenv
 
-# SendGrid (same as class)
+# SendGrid
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
 
@@ -60,6 +60,9 @@ with open("plan.json", "r", encoding="utf-8") as f:
 
 csv_text = plan_to_csv_text(plan)
 
+# NEW: ask user for recipient email
+to_email = input("Enter recipient email: ").strip()
+
 # PREPARE MESSAGE
 subject = "Your Weekly Meal Plan"
 html_content = """
@@ -70,7 +73,7 @@ html_content = """
 client = SendGridAPIClient(SENDGRID_API_KEY)
 message = Mail(
     from_email="apriyankah@gmail.com",
-    to_emails="apriyankah12@gmail.com",
+    to_emails=to_email,
     subject=subject,
     html_content=html_content
 )
